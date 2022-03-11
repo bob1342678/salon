@@ -924,6 +924,10 @@ input, select, textarea {
 		min-height: 8em;
 	}
 
+	#contact {
+		color: black;
+	}
+
 	::-moz-focus-inner {
 		border: 0;
 	}
