@@ -669,6 +669,17 @@ input, select, textarea {
 		width: 25%
 	}
 
+	@media screen and (max-width: 760px) {
+		.flex-item {
+			display: flex;
+			width: 80%;
+			align-items: center;
+			flex: auto;
+		}
+		.flex-item > * {
+			width: 100%;
+		}
+	}
 	
 	
 
@@ -2000,6 +2011,10 @@ input, select, textarea {
 			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
+		}
+		.main > #services{
+			margin: 5% auto;
+			padding: 5% 0;
 		}
 
 		.main #three {
