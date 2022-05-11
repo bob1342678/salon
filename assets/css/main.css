@@ -669,16 +669,17 @@ input, select, textarea {
 		width: 25%
 	}
 
-	@media screen and (max-width: 760px) {
+	@media (max-width: 760px) {
 		.flex-item {
 			display: flex;
-			width: 80%;
+			width: 100%;
 			align-items: center;
 			flex: auto;
 		}
 		.flex-item > * {
 			width: 100%;
 		}
+
 	}
 	
 	
